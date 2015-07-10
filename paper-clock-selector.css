@@ -31,25 +31,25 @@
   stroke-width: 2;
 }
 .dot {
-  fill: var(--default-primary-color); 
+  fill: #009688;
 }
 .lineA {
-  stroke: var(--default-primary-color); 
+  stroke: #009688;
 }
 .lineB {
-  stroke: var(--dark-primary-color);
+  stroke: #009688;
 }
 .pointer-large {
-  fill: var(--light-primary-color);
+  fill: #B1E0DC;
 }
 .pointer.visible .pointer-large {
-  fill: var(--default-primary-color);
+  fill: #009688;
 }
 .number.selected text {
   fill: var(--text-primary-color) !important;
 }
 .pointer-small {
-  fill: var(--dark-primary-color);
+  fill: #009688;
 }
 .pointer.visible .lineB,
 .pointer.visible .pointer-small {

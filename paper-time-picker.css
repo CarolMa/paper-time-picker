@@ -28,7 +28,7 @@
   width: 520px;
   height: 240px;
 }
-#heading { 
+#heading {
   width: 270px;
   height: 240px;
   @apply(--layout-horizontal);
@@ -56,7 +56,7 @@
 /** Heading ********************/
 #heading {
   color: var(--light-primary-color);
-  background: var(--default-primary-color);
+  background: #009688;
 }
 #heading .time {
   font-size: 0;
@@ -87,7 +87,7 @@
 #selectors {
   pointer-events: none;
 }
-#selectors, 
+#selectors,
 #selectors > section,
 #selectors > section > * {
   @apply(--layout-fit);
@@ -120,7 +120,7 @@
   vertical-align: middle;
 }
 #periodSelector .period.iron-selected {
-  background: var(--default-primary-color);
+  background: #009688;
   color: var(--text-primary-color);
 }
 
